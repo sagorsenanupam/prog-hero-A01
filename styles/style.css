@@ -10,12 +10,13 @@
 }
 .btn-primary {
   font-family: "Fira Sans";
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   background-color: #006a50;
   border-radius: 8px;
   border: none;
   padding: 11px 20px 11px 20px;
+  cursor: pointer;
 }
 .btn-secondary {
   font-family: "Fira Sans";
@@ -25,6 +26,7 @@
   border-radius: 8px;
   border: none;
   padding: 11px 20px 11px 20px;
+  cursor: pointer;
 }
 .btn-third {
   font-family: "Fira Sans";
@@ -34,6 +36,7 @@
   border-radius: 8px;
   border: none;
   padding: 11px 20px 11px 20px;
+  cursor: pointer;
 }
 
 /* header Styles */
@@ -45,6 +48,7 @@
 }
 #header-word {
   font-family: "Fira Sans";
+  font-size: 25px;
   color: #0e0e0e;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -53,11 +57,12 @@
 
 #header-btn {
   color: #006a50;
-  background-color: white;
-  border-color: #006a50;
+  font-size: 18px;
+  background-color: none;
   border-radius: 8px;
+  border-color: #006a50;
   margin-right: 10px;
-  padding: 10px 15px;
+  padding: 15px 30px;
   margin-top: 24px;
   margin-bottom: 24px;
   margin-right: 160px;
@@ -69,6 +74,7 @@
   background-color: #c6e4d6;
   margin: 0px 160px 0px 160px;
   display: flex;
+  gap: 0px;
 }
 .first-section-pic {
   width: 400px;
@@ -101,17 +107,19 @@
   justify-content: center;
   gap: 24px;
   margin: 0px 160px 0px 160px;
+  color: rgba(14, 14, 14, 0.7);
 }
 .second-section-box {
   border-color: white;
   border-radius: 16px;
   background-color: white;
   padding: 18px;
-  color: rgba(14, 14, 14, 0.8);
+  color: rgba(14, 14, 14, 0.7);
 }
 
 /* Third Section Styles */
 .third-section {
+  color: rgba(14, 14, 14, 0.7);
 }
 .third-section-title {
   font-family: "Fira Sans";
@@ -151,20 +159,13 @@
 .fourth-section {
   font-family: "Fira Sans";
   margin: 80px 160px 32px 160px;
-  background-image: url(/assets/quote-bg.png);
-  background-repeat: no-repeat;
-  background-position: 0, -23;
-
   border-radius: 16px;
   background-color: #ffffff;
-  padding: 20px;
-}
-.fourth-section-description {
-  /* margin: 25px 1192px 167px 25px; */
 }
 .fourth-section-description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.8);
+  /* padding: 48px 24px 112px 24px; */
 }
 .fourth-section-title {
   font-size: 20px;
@@ -174,4 +175,17 @@
 .fourth-section-sub-title {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
+}
+.fourth-section-pic {
+  padding: 25px;
+}
+.fourth-box {
+  padding: 0px 24px 48px 24px;
+}
+
+/* Sixth Section Styles */
+
+.fifth-section {
+  font-size: 40px;
+  color: #0e0e0e;
 }
