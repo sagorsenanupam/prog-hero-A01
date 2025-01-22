@@ -82,12 +82,14 @@
   font-family: "Fira Sans";
   color: rgba(14, 14, 14, 0.5);
   font-size: 24px;
+  margin-bottom: 16px;
 }
 .first-section-sub-title {
   font-family: "Fira Sans";
   font-weight: bold;
   font-size: 56px;
   color: #0e0e0e;
+  margin-top: 0px;
 }
 .right-part {
   padding: 50px;
