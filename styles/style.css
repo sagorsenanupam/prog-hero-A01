@@ -2,6 +2,7 @@
 /* font-family: "Fira Sans" */
 .full {
   background-color: #f1f1f3;
+  font-family: "Fira Sans";
 }
 
 /* Shared styles */
@@ -44,7 +45,6 @@
   font-family: "Fira Sans";
   display: flex;
   justify-content: space-between;
-  /* margin: 31px 1218px 160px 31px; */
 }
 #header-word {
   font-family: "Fira Sans";
@@ -52,6 +52,7 @@
   color: #0e0e0e;
   margin-top: 24px;
   margin-bottom: 24px;
+  margin-right: 160px;
   margin-left: 160px;
 }
 
@@ -63,7 +64,7 @@
   border-color: #006a50;
   margin-right: 10px;
   padding: 15px 30px;
-  margin-top: 24px;
+  margin-top: 18px;
   margin-bottom: 24px;
   margin-right: 160px;
   cursor: pointer;
@@ -72,23 +73,23 @@
 /* First section styles */
 .first-section {
   background-color: #c6e4d6;
-  margin: 0px 160px 0px 160px;
   display: flex;
-  gap: 0px;
+  border-radius: 24px;
 }
 .first-section-pic {
   width: 400px;
   height: 300px;
-  margin: 60px;
+  padding: 110px;
 }
 .first-section-title {
   font-family: "Fira Sans";
   color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
 }
 .first-section-sub-title {
   font-family: "Fira Sans";
   font-weight: bold;
-  font-size: 40px;
+  font-size: 56px;
   color: #0e0e0e;
 }
 .right-part {
@@ -100,13 +101,11 @@
   font-family: "Fira Sans";
   font-size: 40px;
   color: black;
-  margin: 80px 160px 32px 160px;
 }
 .four-ta-box {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 0px 160px 0px 160px;
   color: rgba(14, 14, 14, 0.7);
 }
 .second-section-box {
@@ -124,18 +123,16 @@
 .third-section-title {
   font-family: "Fira Sans";
   font-size: 40px;
-  margin: 80px 160px 32px 160px;
+  color: #0e0e0e;
 }
 .third-section-description {
   color: rgba(14, 14, 14, 0.7);
   font-family: "Fira Sans";
   font-size: 16px;
-  margin: 0px 160px 32px 160px;
 }
 
 .three-ta-box {
   display: flex;
-  margin: 32px 160px 32px 160px;
   justify-content: space-between;
   gap: 20px;
 }
@@ -158,14 +155,18 @@
 /* Fourth section styles */
 .fourth-section {
   font-family: "Fira Sans";
-  margin: 80px 160px 32px 160px;
   border-radius: 16px;
   background-color: #ffffff;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: 23px 40px;
+  padding: ;
+  margin-top: 30px;
 }
 .fourth-section-description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.8);
-  /* padding: 48px 24px 112px 24px; */
 }
 .fourth-section-title {
   font-size: 20px;
@@ -176,16 +177,289 @@
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
 }
-.fourth-section-pic {
-  padding: 25px;
-}
 .fourth-box {
-  padding: 0px 24px 48px 24px;
+  padding: 48px 24px;
 }
 
-/* Sixth Section Styles */
+/* fifth Section Styles */
 
 .fifth-section {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+}
+.fifth-section-title {
+  color: #0e0e0e;
+  font-size: 40px;
+}
+.fifth-section-table {
+  background-color: white;
+  width: 1280px;
+  height: 409px;
+  border-radius: 16px;
+}
+
+.fifth-section-table-header {
+  background-color: #c6e4d6;
+  font-size: 20px;
+}
+.fifth-section-table-question {
+  padding: 36.5px 24px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0e0e0e;
+}
+.fifth-section-option-bar-box {
+  padding: 24px;
+}
+.fifth-section-option-bar {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  text-align: center;
+  width: 152px;
+  height: 44px;
+  color: black;
+  background-color: #c6e4d6;
+  border-radius: 4px;
+  border: 0.1px solid black;
+  padding: 24px;
+}
+
+/* Sixth section styles */
+.sixth-section {
+  font-family: "Fira Sans";
+}
+.sixth-section-title {
   font-size: 40px;
   color: #0e0e0e;
+}
+.sixth-section-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* seven section styles */
+.seven-section {
+  background-color: white;
+  display: flex;
+  gap: 32px;
+  border-radius: 24px;
+  margin-top: 24px;
+}
+.seven-section-right-part {
+  margin-top: 56px;
+  margin-right: 48px;
+}
+.seven-section-pic img {
+  width: 408px;
+  margin: 48px 32px 48px 48px;
+  border-radius: 12px;
+}
+.seven-section-title {
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+}
+.seven-section-pic-2 {
+  margin-top: 12px;
+}
+.seven-section-date-time {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.seven-section-description {
+  margin-top: 12px;
+  display: flex;
+  color: rgba(14, 14, 14, 0.7);
+}
+.seven-section-btn {
+  margin-top: 32px;
+}
+
+/* Eight section styles */
+.eight-section {
+  width: 1280px;
+  height: 402px;
+  border-radius: 24px;
+  background-color: white;
+  margin-top: 24px;
+}
+.eight-section-flex {
+  display: flex;
+  margin-top: 56px;
+  gap: 32px;
+}
+.eight-section-left-part {
+  margin-top: 56px;
+  margin-left: 48px;
+}
+.eight-section-pic img {
+  width: 408px;
+  border-radius: 12px;
+  margin-top: 56px;
+  margin-right: 48px;
+}
+.eight-section-title {
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+}
+.eight-section-pic-2 {
+  margin-top: 12px;
+}
+.eight-section-date-time {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.eight-section-description {
+  margin-top: 12px;
+  display: flex;
+  color: rgba(14, 14, 14, 0.7);
+}
+.eight-section-btn {
+  margin-top: 32px;
+}
+
+/* Nine section styles */
+.nine-section {
+  background-color: white;
+  display: flex;
+  gap: 32px;
+  border-radius: 24px;
+  margin-top: 24px;
+}
+.nine-section-right-part {
+  margin-top: 56px;
+  margin-right: 48px;
+}
+.nine-section-pic img {
+  width: 408px;
+  margin: 48px 32px 48px 48px;
+  border-radius: 12px;
+}
+.nine-section-title {
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+}
+.nine-section-pic-2 {
+  margin-top: 12px;
+}
+.nine-section-date-time {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.nine-section-description {
+  margin-top: 12px;
+  display: flex;
+  color: rgba(14, 14, 14, 0.7);
+}
+.nine-section-btn {
+  margin-top: 32px;
+}
+
+/* Ten section styles */
+
+.ten-section-title {
+  font-family: "Fira Sans";
+  font-size: 40px;
+  color: #0e0e0e;
+  text-align: center;
+}
+.ten-section-description {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+}
+.ten-section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.ten-section-btn-box {
+  width: 240px;
+  height: 128px;
+  border-radius: 16px;
+  background-color: white;
+  border: none;
+  background-color: rgba(198, 228, 214, 1);
+}
+.ten-section-btn-box-amount {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  padding: 5px;
+  cursor: pointer;
+}
+.ten-section-amount {
+  text-align: center;
+  align-items: center;
+}
+
+/* Eleven section styles */
+
+.eleven-section {
+  background-color: rgba(198, 228, 214, 1);
+}
+.eleven-section-box {
+  padding: 80px 265px;
+}
+
+.eleven-section-title {
+  font-family: "Fira Sans";
+  color: #0e0e0e;
+  font-size: 40px;
+  text-align: center;
+}
+.eleven-section-description {
+  font-family: "Fira Sans";
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  text-align: center;
+  /* padding: 0px 64px 0px 64px; */
+}
+.eleven-section-input-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+#enter-your-email {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  width: 800px;
+  height: 56px;
+  border: none;
+  /* padding: 11px 20px 11px 20px; */
+  cursor: pointer;
+}
+.eleven-section-last {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+}
+
+/* Footer section styles */
+.footer-section {
+  font-family: "Fira Sans";
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.footer-pic {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  padding-left: 1px;
+  margin-bottom: 50px;
 }
