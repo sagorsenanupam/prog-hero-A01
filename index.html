@@ -127,14 +127,19 @@
           </div>
         </div>
       </section>
-      <section class="fifth-section font">
+      <section class="fifth-section">
         <h3 class="fifth-section-title">Your Opinion Matters</h3>
         <div class="fifth-section-table">
-          <table>
-            <th class="fifth-section-table-header" colspan="2">
-              <span id="one">Questions</span>
-              <span id="two">Select Your Opinion</span>
-            </th>
+          <table class="fifth-section-table-box">
+            <div class="fifth-section-table-header">
+              <th class="fifth-section-table-header-1" colspan="2">
+                <span id="one">Questions</span
+                ><span id="two">Select Your Opinion</span>
+              </th>
+              <!-- <th class="fifth-section-table-header-2" colspan="2">
+                <span id="two">Select Your Opinion</span>
+              </th> -->
+            </div>
             <tr class="fifth-section-table-question">
               <td>
                 Do you believe Bangladesh is on the right path toward becoming a
@@ -274,26 +279,30 @@
         <div class="ten-section-btn">
           <div class="ten-section-box">
             <button class="ten-section-btn-box">
+              <p class="ten-section-btn-box-amount">100 Taka</p>
+            </button>
+            <button class="ten-section-btn-box ten-section-box-color">
               <p class="ten-section-btn-box-amount">200 Taka</p>
             </button>
             <button class="ten-section-btn-box">
-              <p class="ten-section-btn-box-amount">200 Taka</p>
+              <p class="ten-section-btn-box-amount">500 Taka</p>
             </button>
             <button class="ten-section-btn-box">
-              <p class="ten-section-btn-box-amount">200 Taka</p>
-            </button>
-            <button class="ten-section-btn-box">
-              <p class="ten-section-btn-box-amount">200 Taka</p>
+              <p class="ten-section-btn-box-amount">1000 Taka</p>
             </button>
           </div>
-          <input
-            type="text"
-            name=""
-            id="ten-section-amount"
-            placeholder="Other Amount (Taka)"
-          />
+          <div class="ten-section-input">
+            <input
+              type="text"
+              name=""
+              id="ten-section-amount"
+              placeholder="Other Amount (Taka)"
+            />
+          </div>
         </div>
-        <button class="btn-primary">Donate Now</button>
+        <div class="ten-section-btn">
+          <button class="ten-section-btn btn-primary">Donate Now</button>
+        </div>
       </section>
 
       <section class="eleven-section">
@@ -310,7 +319,7 @@
               id="enter-your-email"
               placeholder="Enter your email here"
             />
-            <button class="btn-primary">Subscribe</button>
+            <button class="eleven-section-btn">Subscribe</button>
           </div>
           <p class="eleven-section-last">We promise not to spam you!</p>
         </div>

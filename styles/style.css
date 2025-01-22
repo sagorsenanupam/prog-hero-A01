@@ -187,21 +187,34 @@
   color: #0e0e0e;
   font-family: "Fira Sans";
 }
+th,
+td {
+  border: 0.01px solid rgba(14, 14, 14, 0.15);
+}
+td {
+  padding: 36.5px 24px;
+  align-items: center;
+}
 .fifth-section-title {
   color: #0e0e0e;
   font-size: 40px;
 }
 .fifth-section-table {
   background-color: white;
-  width: 1280px;
-  height: 409px;
   border-radius: 16px;
+  padding: 32px;
 }
 
-.fifth-section-table-header {
+.fifth-section-table-header-1 {
   background-color: #c6e4d6;
   font-size: 20px;
+  text-align: left;
+  padding: 24px;
 }
+#two {
+  margin-left: 870px;
+}
+
 .fifth-section-table-question {
   padding: 36.5px 24px;
   font-weight: bold;
@@ -210,13 +223,13 @@
 }
 .fifth-section-option-bar-box {
   padding: 24px;
+  color: #0e0e0e;
+  margin: 24px;
 }
 .fifth-section-option-bar {
   font-family: "Fira Sans";
   font-size: 16px;
-  text-align: center;
-  width: 152px;
-  height: 44px;
+
   color: black;
   background-color: #c6e4d6;
   border-radius: 4px;
@@ -364,18 +377,23 @@
 }
 
 /* Ten section styles */
+.ten-section {
+  align-items: center;
+}
 
 .ten-section-title {
   font-family: "Fira Sans";
   font-size: 40px;
   color: #0e0e0e;
   text-align: center;
+  margin-bottom: 24px;
 }
 .ten-section-description {
   font-family: "Fira Sans";
-  font-size: 16px;
+  font-size: 19px;
   text-align: center;
   color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
 }
 .ten-section-box {
   display: flex;
@@ -389,6 +407,9 @@
   border-radius: 16px;
   background-color: white;
   border: none;
+  margin-bottom: 32px;
+}
+.ten-section-box-color {
   background-color: rgba(198, 228, 214, 1);
 }
 .ten-section-btn-box-amount {
@@ -397,15 +418,29 @@
   color: rgba(14, 14, 14, 0.8);
   padding: 5px;
   cursor: pointer;
+  margin-bottom: 32px;
 }
-.ten-section-amount {
+#ten-section-amount {
   text-align: center;
   align-items: center;
+  width: 900px;
+  height: 40px;
+  padding: 18px 0px 18px 40px;
+  font-size: 20px;
+}
+.ten-section-input {
+  align-items: center;
+  margin-bottom: 32px;
+}
+.ten-section-btn {
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* Eleven section styles */
 
 .eleven-section {
+  border-radius: 24px;
   background-color: rgba(198, 228, 214, 1);
 }
 .eleven-section-box {
@@ -413,37 +448,39 @@
 }
 
 .eleven-section-title {
-  font-family: "Fira Sans";
-  color: #0e0e0e;
   font-size: 40px;
+  color: #0e0e0e;
   text-align: center;
+  margin-bottom: 16px;
 }
 .eleven-section-description {
-  font-family: "Fira Sans";
+  font-size: 20px;
   color: rgba(14, 14, 14, 0.7);
-  font-size: 16px;
   text-align: center;
-  /* padding: 0px 64px 0px 64px; */
 }
 .eleven-section-input-email {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-}
-#enter-your-email {
-  background-color: white;
-  border: none;
-  border-radius: 8px;
-  width: 800px;
+  display: flex;
+  width: 750px;
   height: 56px;
+}
+.eleven-section-btn {
+  border-radius: 0px;
+  width: 150px;
+  height: 56px;
+  font-size: 16px;
+  color: white;
+  background-color: #006a50;
   border: none;
-  /* padding: 11px 20px 11px 20px; */
+  padding: 11px 20px 11px 20px;
   cursor: pointer;
 }
+#enter-your-email {
+  width: 600px;
+  height: 16.5px;
+  padding: 18px 0px 18px 40px;
+}
 .eleven-section-last {
-  font-family: "Fira Sans";
-  font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
   text-align: center;
 }
