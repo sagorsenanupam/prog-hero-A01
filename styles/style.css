@@ -52,8 +52,6 @@
   color: #0e0e0e;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-right: 160px;
-  margin-left: 160px;
 }
 
 #header-btn {
@@ -66,7 +64,6 @@
   padding: 15px 30px;
   margin-top: 18px;
   margin-bottom: 24px;
-  margin-right: 160px;
   cursor: pointer;
 }
 
@@ -182,37 +179,47 @@
 }
 
 /* fifth Section Styles */
-
 .fifth-section {
   color: #0e0e0e;
   font-family: "Fira Sans";
-}
-th,
-td {
-  border: 0.01px solid rgba(14, 14, 14, 0.15);
-}
-td {
-  padding: 36.5px 24px;
-  align-items: center;
 }
 .fifth-section-title {
   color: #0e0e0e;
   font-size: 40px;
 }
-.fifth-section-table {
-  background-color: white;
-  border-radius: 16px;
-  padding: 32px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+thead {
+  background-color: #d3e8d3;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  padding: 24px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+select {
+  width: 100%;
+  padding: 5px;
 }
 
 .fifth-section-table-header-1 {
   background-color: #c6e4d6;
   font-size: 20px;
-  text-align: left;
   padding: 24px;
 }
 #two {
-  margin-left: 870px;
+  margin-left: 950px;
 }
 
 .fifth-section-table-question {
@@ -224,18 +231,17 @@ td {
 .fifth-section-option-bar-box {
   padding: 24px;
   color: #0e0e0e;
-  margin: 24px;
 }
 .fifth-section-option-bar {
   font-family: "Fira Sans";
   font-size: 16px;
-
   color: black;
   background-color: #c6e4d6;
   border-radius: 4px;
   border: 0.1px solid black;
   padding: 24px;
 }
+*/
 
 /* Sixth section styles */
 .sixth-section {
@@ -292,8 +298,6 @@ td {
 
 /* Eight section styles */
 .eight-section {
-  width: 1280px;
-  height: 402px;
   border-radius: 24px;
   background-color: white;
   margin-top: 24px;
